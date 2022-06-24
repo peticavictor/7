@@ -4,6 +4,7 @@ import CVs from "./components/CVs";
 import Home from "./components/Home";
 import Jobs from "./components/Jobs";
 import Navbar from "./components/Navbar";
+import "./css/styles.css"
 
 function App() {
   return (

@@ -1,0 +1,39 @@
+.backForthBtn {
+    border-radius: 100% !important;
+}
+
+.App {
+    background-image: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.home {
+    height: 91vh;
+}
+.form-control::placeholder {
+    color: whitesmoke;
+}
+.jobsHome, .cvsHome {
+    background: rgba(247, 247, 247, 0.3)
+}
+@media screen and (max-width: 1000px) {
+    .jobsHome, .cvsHome, .shownArrow{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home {
+        height: auto;
+        
+    }
+    .jobsHome {
+    }
+}
